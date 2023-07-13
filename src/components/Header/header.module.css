@@ -1,0 +1,40 @@
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 70px;
+    padding-top: 40px;
+    width: 90%;
+}
+
+.ham-btn {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.ham-btn:hover {
+    opacity: 0.5;
+}
+
+.score {
+    font-size: 30px;
+    color: #e7e7e7;
+    font-weight: 700;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.custom-css {
+    color: #fff;
+    font-size: 28px;
+    cursor: pointer;
+    transition: 0.5s all ease;
+    outline: none;
+    border: none;
+}
+
+.custom-css:hover {
+    color: rgb(239, 66, 140) !important;
+}
+
